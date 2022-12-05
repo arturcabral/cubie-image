@@ -10,12 +10,12 @@ pygame.camera.init()
 
 # make the list of all available cameras
 camlist = pygame.camera.list_cameras()
-
+print(camlist)
 # if camera is detected or not
 if camlist:
 
 	# initializing the cam variable with default camera
-	cam = pygame.camera.Camera(camlist[0], (640, 480))
+	cam = pygame.camera.Camera(camlist[1], (640, 480))
 
 	# opening the camera
 	cam.start()
