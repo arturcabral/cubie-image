@@ -11,4 +11,4 @@ if camlist:
     pygame.image.save(image, "filename.jpg")
     
 else:
-    if camera is not detected the moving to this part
+   if camera is not detected the moving to this part
